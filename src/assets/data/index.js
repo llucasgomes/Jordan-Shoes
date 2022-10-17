@@ -5,11 +5,11 @@ export const Products = [
   },
   {
     id: 2,
-    imagem: "../../../assets/image/2.png",
+    imagem: "../../../../assets/image/2.png",
   },
   {
     id: 3,
-    imagem: "../../../assets/image/3.png",
+    imagem: "./../../../assets/image/3.png",
   },
   {
     id: 4,
