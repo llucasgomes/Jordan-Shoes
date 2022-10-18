@@ -9,7 +9,7 @@ export const Products = [
   },
   {
     id: 3,
-    imagem: "/src/assets/image/3.png",
+    imagem: "/src/assets/image/3.jpeg",
   },
   {
     id: 4,
