@@ -1,7 +1,7 @@
 import { BannerFrete } from "../../shared/components/bannerDesconto";
 import { BannerPrincipal } from "../../shared/components/BannerPrincipal";
 import { BodyProducts, Container, ContainerGrid } from "./styled";
-import Products from "../../assets/data/index.js";
+import { Products } from "../../assets/data/index";
 import { Card } from "../../shared/components/Card";
 
 export const Home = () => {
@@ -21,7 +21,6 @@ export const Home = () => {
             <Card key={item.id} img_product={item.imagem} />
           ))}
         </ContainerGrid>
-        
       </BodyProducts>
       <BannerFrete texto={"Todos os diretos reservados"} />
     </Container>
