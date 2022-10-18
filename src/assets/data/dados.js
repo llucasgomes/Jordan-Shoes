@@ -2,7 +2,7 @@ export const Products = [
   {
     id: 1,
     imagem:
-      "https://github.com/llucasgomes/Jordan-Shoes/blob/main/src/assets/image/1.png",
+      "https://github.com/llucasgomes/Jordan-Shoes/blob/main/src/assets/image/tenis1.png",
   },
   {
     id: 2,
