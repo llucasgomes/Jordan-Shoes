@@ -1,7 +1,7 @@
 import { BannerFrete } from "../../shared/components/bannerDesconto";
 import { BannerPrincipal } from "../../shared/components/BannerPrincipal";
 import { BodyProducts, Container, ContainerGrid } from "./styled";
-import Products from "../../assets/data/index";
+import Products from "../../assets/data/index.js";
 import { Card } from "../../shared/components/Card";
 
 export const Home = () => {
