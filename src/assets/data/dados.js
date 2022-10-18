@@ -9,7 +9,8 @@ export const Products = [
   },
   {
     id: 3,
-    imagem: "/src/assets/image/3.jpeg",
+    imagem:
+      "https://akns-images.eonline.com/eol_images/Entire_Site/2016827/rs_560x822-160927104432-Poster-E-Fada-630x925.jpg?fit=around%7C560:822&output-quality=90&crop=560:822;center,top",
   },
   {
     id: 4,
