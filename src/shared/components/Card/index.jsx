@@ -1,5 +1,5 @@
 import { Container } from "./styled";
-import logo from "../../../assets/image/1.png";
+
 
 export const Card = ({ img_product }) => {
   return (
