@@ -9,7 +9,10 @@ export const Card = ({ img_product }) => {
   return (
     <>
       <Container>
-        <img src={image} alt="Imagem de calçado" />
+        <img
+          src="https://github.com/llucasgomes/Jordan-Shoes/blob/main/src/assets/image/7.png"
+          alt="Imagem de calçado"
+        />
       </Container>
     </>
   );
