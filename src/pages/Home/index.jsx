@@ -1,10 +1,14 @@
 import { BannerFrete } from "../../shared/components/bannerDesconto";
 import { BannerPrincipal } from "../../shared/components/BannerPrincipal";
 import { BodyProducts, Container, ContainerGrid } from "./styled";
-import Products from "../../assets/data/dados.js";
+import { Products } from "../../assets/data/dados.js";
 import { Card } from "../../shared/components/Card";
+import { useState } from "react";
 
 export const Home = () => {
+  const [produtos, setProdutos] = useState(Products);
+  // setProdutos(Products);
+
   return (
     <Container>
       <BannerFrete texto={"Ganhe R$10,00 de desconto no frete"} />
@@ -17,7 +21,7 @@ export const Home = () => {
         </p>
 
         <ContainerGrid>
-          {Products.map((item) => (
+          {produtos.map((item) => (
             <Card key={item.id} img_product={item.imagem} />
           ))}
         </ContainerGrid>
@@ -25,4 +29,4 @@ export const Home = () => {
       <BannerFrete texto={"Todos os diretos reservados"} />
     </Container>
   );
-};
+};;
