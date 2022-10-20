@@ -1,7 +1,7 @@
 export const Products = [
   {
     id: 1,
-    imagem: "./src/assets/image/1.png",
+    imagem: "./public/1.png",
   },
   {
     id: 2,
