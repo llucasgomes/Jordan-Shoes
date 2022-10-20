@@ -20,8 +20,8 @@ export const Home = () => {
         </p>
 
         <ContainerGrid>
-          {produtos.map((item, index) => (
-            <Card key={index} img_product={item.imagem} />
+          {produtos.map((item) => (
+            <Card key={item.id} img_product={item.imagem} />
           ))}
         </ContainerGrid>
       </BodyProducts>

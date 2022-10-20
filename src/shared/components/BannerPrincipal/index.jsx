@@ -7,7 +7,6 @@ export const BannerPrincipal = () => {
       <Container>
         <img src={image_background} alt="Imagem BackGround" />
         <h2>A melhor loja de Jordan</h2>
-        <p>{image_background}</p>
         <p>
           O tênis Jordan é fruto de uma velha e forte
           <br />
