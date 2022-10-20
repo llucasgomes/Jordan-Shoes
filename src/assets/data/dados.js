@@ -5,7 +5,7 @@ export const Products = [
   },
   {
     id: 2,
-    imagem: "./src/assets/image/2.png",
+    imagem: "/src/assets/image/2.png",
   },
   {
     id: 3,

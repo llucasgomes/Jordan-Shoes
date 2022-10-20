@@ -7,7 +7,6 @@ import { useState } from "react";
 
 export const Home = () => {
   const [produtos, setProdutos] = useState(Products);
-  // setProdutos(Products);
 
   return (
     <Container>
